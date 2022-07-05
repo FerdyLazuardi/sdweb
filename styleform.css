@@ -1,0 +1,145 @@
+body{
+    background: #efefef;
+}
+
+.isi h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #777;
+    margin:0px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.isi h2{
+  font-size: 26px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #777;
+  margin-bottom: 14px;
+}
+
+.isi {
+    position: relative;
+    margin: 5% auto;
+    background: #ffffff;
+    height: auto;
+    width: 600px;
+    border-top: 3px solid #f56f6f;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.data{
+  padding: 18px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.formisi{
+  padding: 60px 0px;
+  padding-left: 75px;
+}
+
+input[type="text"],input[type="password"]{
+  margin-bottom: 60px;
+  padding: 2px 3px 6px 3px;
+  width: 70%;
+  height: 20px;
+  border: none;
+  border-bottom: 1px solid #d6d6d6;
+  font-family: Agency-FB;
+  font-size: 16px;
+}
+select.ag {
+  padding: 9px;
+    border: none;
+    background: #f9f9f9;
+}
+input[type="submit"]{
+    margin-top: 28px;
+    width: 120px;
+    height: 32px;
+    margin-left: 170px;
+    background: #eb0808;
+    border: none;
+    border-radius: 50px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+}
+
+input[type="submit"]:hover{
+    background: #ff1717;
+}
+
+.pilih {
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-bottom: 50px;
+    padding-top: 12px;
+}
+
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+input[type="radio"]{
+    position: absolute;
+    opacity: 0;
+}
+
+.check
+{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    border-radius: 50%;
+    transition: .3s ease;
+}
+.check:hover {
+    background-color: #ccc;
+  }
+  
+  input:checked ~ .check {
+    background-color: rgb(255, 0, 0);
+  }
+
+
+  .profesi{
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 65px;
+  }
+
+.hasil{
+    margin-top: 40px;
+}
+
+  #user,#pilih,#profesi,#no,#mail,#instan,#alamat{
+    margin: 0px;
+    margin-bottom: 25px;
+    color: #777;
+    font-family: sans-serif;
+    font-size: 17px;
+    letter-spacing: 2px;
+    
+  }
+
+  h1.registrasi{
+    padding-right: 67px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }

@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>Form JavaScript</title>
+    <link rel="stylesheet" href="styleform.css">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="lib/bootstrap/css/mdb.min.css">
+    <link href="css/1/css2.css" rel="stylesheet">
+    <script language="JavaScript" src="js/validasi.js"></script>
+</head>
+<body>
+        <div class="isi">
+                <div class="data">
+    <h2>Formulir Pendaftaran Peserta Didik Baru</h2><h1>2020-2021</h1>
+</div>
+        <form method="POST" action="isi.php">
+                <div class="formisi">
+              <input name="username" type="text" placeholder="Nama Lengkap">
+               <input name="instansi" type="text" placeholder="Usia"> 
+               <input name="alamat" type="text" placeholder="Alamat"> 
+            <input name="telp" type="text" maxlength="14" placeholder="No.Telepon">
+             
+            <div class="pilih">Jenis Kelamin :
+                <label class="container"><input  name="pilih"type="radio"value="Laki-Laki">&nbsp;Laki-Laki<span class="check"></span></label>
+                 <label class="container"><input name="pilih" type="radio" value="Perempuan">&nbsp;Perempuan<span class="check"></span></label></<label>
+                 </div> 
+               <div class="profesi"><p>Penghasilan Orang Tua&nbsp;:&nbsp; 
+                <select name="profesi" class="ag">
+                    <option selected>--Pilih--</option>
+                    <option >Kurang dari 1.000.0000</option>
+                    <option >1.000.000 - 1.500.000</option>
+                    <option >1.500.000 - 2.000.000</option>
+                    <option >2.000.000 - 2.500.000</option>
+                    <option >2.500.000 - 3.000.000</option>
+                    <option >3.000.000 - 3.500.000</option>
+                    <option >3.500.000 - 4.000.000</option>
+                    <option >Lebih dari 4.000.000</option>
+                </select></div>
+             
+                <input name="email" type="text" placeholder="Email"> 
+
+            
+              
+                
+
+            
+                <br>
+                <button type="submit"  onclick="validasi_input(form)" class="btn peach-gradient">Daftar </button>
+      
+                </form>
+            </div>
+        
+</body>
+</html>
